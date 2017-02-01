@@ -1,3 +1,3 @@
-FROM yamitzky/docker-compose:1.11.2
+FROM pistatium/docker-compose:1.11.2
 
 RUN pip install awscli
