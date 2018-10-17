@@ -1,4 +1,4 @@
-FROM pistatium/docker-compose:1.11.2
+FROM pistatium/docker-compose:latest
 
 RUN pip install virtualenv && virtualenv cli && cli/bin/pip install awscli awsebcli
 

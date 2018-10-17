@@ -1,4 +1,4 @@
-FROM docker:1.11.2
+FROM docker:latest
 
 RUN apk update && \
   apk add py-pip && \
